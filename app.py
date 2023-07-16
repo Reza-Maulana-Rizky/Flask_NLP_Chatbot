@@ -1,5 +1,7 @@
 from process import preparation, generate_response
 from flask import Flask, render_template, request
+import flask 
+print(flask.__version__)
 
 # download nltk
 preparation()
